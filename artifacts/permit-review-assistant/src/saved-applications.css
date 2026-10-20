@@ -1,0 +1,25 @@
+.saved-section { margin: 28px 0; }
+.saved-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.saved-card { padding: 22px; min-width: 0; }
+.saved-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.saved-card h3 { margin: 6px 0 10px; font-size: 19px; line-height: 1.3; color: #153d53; }
+.saved-card .ap-record-meta svg { vertical-align: -3px; }
+.saved-status { border-radius: 5px; padding: 6px 9px; color: #22576d; background: #e7f3f6; font-size: 12px; font-weight: 700; white-space: nowrap; }
+.saved-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 18px; margin: 20px 0; }
+.saved-facts div { min-width: 0; }
+.saved-facts dt { font-size: 12px; color: #607581; }
+.saved-facts dd { margin: 3px 0 0; font-weight: 650; overflow-wrap: anywhere; color: #163e52; }
+.saved-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.saved-detail { max-width: 750px; }
+.saved-detail form { display: grid; gap: 15px; }
+.saved-detail label { display: grid; gap: 6px; font-weight: 650; color: #153d53; }
+.saved-detail .input { width: 100%; box-sizing: border-box; padding: 12px; }
+.saved-detail textarea.input { resize: vertical; }
+.account-history { max-width: 750px; margin-top: 22px; }
+.account-document { border-top: 1px solid #d9e2e7; padding: 20px 0; }
+.account-document h3 { margin: 0; font-size: 16px; }
+.account-document-filename { overflow-wrap: anywhere; font-size: 13px; margin: 9px 0; }
+.account-document-summary { display: flex; flex-wrap: wrap; gap: 10px 20px; color: #215c56; margin: 12px 0; }
+.account-document summary { cursor: pointer; color: #0067a5; font-weight: 650; padding: 8px 0; }
+.account-document summary:focus-visible { outline: 2px solid #0067a5; outline-offset: 3px; }
+@media (max-width: 780px) { .saved-card-grid, .saved-facts { grid-template-columns: 1fr; } .saved-card-heading { flex-wrap: wrap; } }

@@ -1,0 +1,16 @@
+.portal-auth-page { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 28px 18px; background: #f0f5f8; }
+.portal-auth-page > p { max-width: 440px; margin-top: 20px; color: #385766; font-size: 13px; text-align: center; }
+.cl-formFieldInput::placeholder { color: #617985; opacity: 1; }
+.cl-formButtonPrimary { color: #fff; }
+.rule-panel { margin-top: 20px; }
+.rule-panel h2 { margin-bottom: 12px; font-size: 18px; }
+.rule-panel p, .rule-panel li { color: #385766; font-size: 13px; line-height: 1.6; }
+.rule-panel form { display: grid; gap: 14px; margin-top: 18px; }
+.rule-panel label { display: grid; gap: 7px; color: #21485c; font-size: 13px; font-weight: 700; }
+.rule-panel .checkbox-row { display: flex; }
+.claim-row { margin-top: 18px; padding-top: 16px; border-top: 1px solid #c7d9e3; }
+.safety-critical, .rule-alert { padding: 16px; border: 2px solid #a2372d; background: #fff3f1; color: #84241d; border-radius: 4px; }
+.safety-critical h2, .safety-critical p, .rule-alert p { color: #84241d; }
+.safety-critical .flag, .flag.safety-critical { color: #84241d; background: #fff3f1; }
+.rule-incomplete .progress span { background: #a2372d; }
+.priority-pending { display: inline-block; padding: 6px 9px; background: #fff5df; color: #714b08; border: 1px solid #d3ae59; font-size: 12px; margin-top: 10px; }
